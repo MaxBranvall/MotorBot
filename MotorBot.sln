@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorBot", "MotorBot\MotorBot.csproj", "{FC9203BA-44B4-4E62-BEE1-D0A0FB3F310A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9203BA-44B4-4E62-BEE1-D0A0FB3F310A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9203BA-44B4-4E62-BEE1-D0A0FB3F310A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9203BA-44B4-4E62-BEE1-D0A0FB3F310A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9203BA-44B4-4E62-BEE1-D0A0FB3F310A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07BD0CA0-473C-4049-8933-4A941B4E2837}
+	EndGlobalSection
+EndGlobal
