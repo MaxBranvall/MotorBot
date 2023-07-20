@@ -1,10 +1,7 @@
 {
   "profiles": {
     "MotorBot": {
-      "commandName": "Project",
-      "environmentVariables": {
-        "discordToken": "MTEzMTcyMzIxNTQ4ODY4ODE3OQ.G6-5YX.vRMqV4CRNz9RYMQUZYliWV_sY0qlXEc7d4AZlw"
-      }
+      "commandName": "Project"
     }
   }
 }

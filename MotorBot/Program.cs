@@ -13,14 +13,18 @@ namespace MotorBot
         static Task Main(string[] args)
         {
             var config = new ConfigurationBuilder()
-                .AddEnvironmentVariables()
+                .AddUserSecrets<Program>()
                 .Build();
 
-            var token = config.GetValue<string>("discordToken");
+            var hasToken = config.Providers.First().TryGet("Discord:BotToken", out var token);
 
-            // Call the Program constructor, followed by the 
-            // MainAsync method and wait until it finishes (which should be never).
-            return new Program().MainAsync(token!);
+            if (hasToken)
+                // Call the Program constructor, followed by the 
+                // MainAsync method and wait until it finishes (which should be never).
+                return new Program().MainAsync(token!);
+
+            Console.WriteLine("No token provided!");
+            return null!;
         }
 
         private readonly DiscordSocketClient _client;
